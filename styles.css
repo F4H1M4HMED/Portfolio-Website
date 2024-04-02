@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background-color: #111111;
+    color: #fff;
+    padding: 40px;
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    justify-content: space-between;
+    display: flex;
+}
+
+header h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+header h1 a {
+    margin: 0;
+    display: inline;
+    text-align: left;
+}
+
+header a {
+    color: #fff; 
+    text-decoration: none; 
+    display: inline-block;
+}
+
+header a:hover {
+    color: #fff; 
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    text-align: right;
+    font-size: 0.7em;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background color on hover */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other background properties */
+}
+
+
+main {
+    padding: 170px;
+    text-align: center;
+
+}
+
+#home h2 {
+    color: #ffffff;
+    font-size: 5em;
+    margin-bottom: 0 auto;
+}
+
+#home {
+    padding: 40px;
+    display: inline-block; /* Display as inline-block to fit content width */
+    margin: 0 auto; /* Center the box horizontally */
+    border-radius: 50px;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Add glowing effect */
+}
+
+#home div p {
+    color: #fff;
+    display: flex;
+    margin-top: 0 auto;
+    transform: translateY(40);
+}
+#home p {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0 auto;    
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+footer {
+    border-top: 2px solid #000; 
+    margin-top: auto;
+    background-color: #111111;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em;
+    text-align: center;
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-pic {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensure the image is round */
+    margin-right: 10px; /* Add some spacing between image and text */
+}
+
+footer .contact-info p:first-child {
+    margin-left: 10px; /* Add left margin to create space between email/phone and profile pic */
+}
+
+i {
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensure the image is round */
+    margin-right: 10px; /* Add some spacing between image and text */
+}
+
+
+#qualifications-skills {
+    padding: 40px 0;
+    color: #ffffff;
+    border-radius: 40px;
+    background-color: #ffffff; /* Add a contrasting background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center items */
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 20px auto; /* Center horizontally */
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Add glowing effect */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qualifications{
+    text-align: center;
+}
+
+.skills, .qualifications {
+    flex-basis: calc(50% - 10px); /* Set width for each block */
+    color: #ffffff;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills {
+    margin-right: 20px; /* Adjust spacing between blocks */
+    align-items: center;
+    text-align: center;
+}
+
+.skills h2, .qualifications h2 {
+    margin-top: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#qualifications-skills {
+    padding: 40px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+#qualifications-skills .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#qualifications-skills h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+#qualifications-skills ul {
+    color: #ffffff;
+    list-style-type: none;
+}
+
+#qualifications-skills p {
+    color: #ffffff;
+    max-width: 1200px;
+}
+
+#qualifications-skills a {
+    display: block;
+    margin-top: 20px;
+}
+
+.cv-button {
+    display: block;
+    padding: 10px 20px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    text-decoration:solid;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+    margin-top: 0 auto;
+    border-color: #000;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+.cv-button:hover {
+    background-color: rgb(3, 55, 6);
+    color: #ffffff;
+}
+
+
+#contact {
+    padding: 40px 20px; /* Adjust padding */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Add glowing effect */
+}
+
+
+.contact-details, .contact-form {
+    max-width: 800px;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure maximum width is respected */
+}
+
+.contact-form form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+    border: 1px solid #000000;
+    border-radius: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.contact-form button {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: rgb(3, 55, 5);
+    color: #fff;
+}
+
+
+
+#projects {
+    padding: 40px 20px; /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5); /* Add glowing effect */
+}
+
+.project {
+    margin-bottom: 20px; /* Add margin between projects */
+    border: 2px solid #000; /* Add border for visual separation */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3,
+.project p {
+    margin: 10px 0;
+}
+
+#projects a {
+    display: block;
+    padding: 10px 20px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    text-decoration:solid;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+    margin-top: 0 auto;
+    border-color: #000;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#projects a :hover{
+    background-color: rgb(3, 55, 6);
+    color: #ffffff;
+}
+
+header, footer, #home, #qualifications-skills, #contact, #projects {
+    backdrop-filter: blur(10px); /* Add blur effect */
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color with transparency */
+    opacity: 0.8; /* Adjust opacity for further transparency */
+    /* Other styles for header and footer */
+}
